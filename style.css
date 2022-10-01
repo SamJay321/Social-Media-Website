@@ -120,3 +120,14 @@ nav .create {
     align-items: center;
     gap: 2rem;
 }
+
+/* --------------- MAIN ---------------------- */
+main {
+    position: relative;
+    top: 5.4rem;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: 18vh auto 20vw;
+}

@@ -1,4 +1,8 @@
 
+:root {
+    --color-dark: hsl(252, 30%, 17%);
+}
+
 ", "::before, "::after {
     margin: 0;
     padding: 0;
@@ -10,5 +14,6 @@
 }
 
 body {
-    font-family: ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-dark);
 }
